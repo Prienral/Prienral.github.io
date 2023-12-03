@@ -6,82 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protecting Our Planet's Wildlife: Giant Panda Conservation</title>
     <style>
-        /* Add your CSS styles for a professional design here */
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-image: url('https://th.bing.com/th/id/R.5388e7b78496297063f0b619fc2b9ecf?rik=r71IHf8hZFeXeA&riu=http%3a%2f%2fwww.lovethesepics.com%2fwp-content%2fuploads%2f2012%2f04%2fGiant-Panda-Eating-Bamboo-Wolong-Nature-Reserve-Sichuan-China.jpg&ehk=i1LCPoO7e%2faqfjg86BaeBeCz8ZwKZ3xNatZBdu%2fehdI%3d&risl=&pid=ImgRaw&r=0');
-            background-size: cover;
-            color: #000; /* Black text color */
-        }
-
-        header {
-            background-color: rgba(76, 175, 80, 0.8);
-            text-align: center;
-            padding: 1em;
-            color: white;
-        }
-
-        section {
-            margin: 2em;
-            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            color: #000; /* Black text color */
-        }
-
-        h2 {
-            color: #4CAF50;
-        }
-
-        h3 {
-            color: #4CAF50;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 1em;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 1em;
-        }
-
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
-
-        figure {
-            margin: 1em 0;
-            text-align: center;
-        }
-
-        footer {
-            background-color: rgba(51, 51, 51, 0.8);
-            color: white;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+           /* Add your common CSS styles here */
+		html {
+		            height: 100%;
+		            background-image: url('https://th.bing.com/th/id/R.5388e7b78496297063f0b619fc2b9ecf?rik=r71IHf8hZFeXeA&riu=http%3a%2f%2fwww.lovethesepics.com%2fwp-content%2fuploads%2f2012%2f04%2fGiant-Panda-Eating-Bamboo-Wolong-Nature-Reserve-Sichuan-China.jpg&ehk=i1LCPoO7e%2faqfjg86BaeBeCz8ZwKZ3xNatZBdu%2fehdI%3d&risl=&pid=ImgRaw&r=0');
+		            background-size: cover;
+		            background-position: center;
+		            background-repeat: no-repeat;
+		            margin: 0;
+		            padding: 0;
+		            overflow: hidden;
+		        }
+		
+		        body {
+		            font-family: 'Arial', sans-serif;
+		            line-height: 1.6;
+		            margin: 0;
+		            padding: 0;
+		            height: 100%;
+		            overflow: auto; /* Enables scrolling if content overflows */
+		        }
+           /* body {
+                       font-family: 'Arial', sans-serif;
+                       line-height: 1.6;
+                       margin: 0;
+                       padding: 0;
+                       background-image: url('https://th.bing.com/th/id/OIP.bXQWVxwPQoxmoNNsT44LkgHaEK?w=294&h=180&c=7&r=0&o=5&pid=1.7');
+                       background-size: cover;
+                       background-position: center;
+                       color: #000;
+                   } */
+				  /* body {
+				               font-family: 'Arial', sans-serif;
+				               line-height: 1.6;
+				               margin: 0;
+				               padding: 0;
+				               background-image: url('https://th.bing.com/th/id/R.5388e7b78496297063f0b619fc2b9ecf?rik=r71IHf8hZFeXeA&riu=http%3a%2f%2fwww.lovethesepics.com%2fwp-content%2fuploads%2f2012%2f04%2fGiant-Panda-Eating-Bamboo-Wolong-Nature-Reserve-Sichuan-China.jpg&ehk=i1LCPoO7e%2faqfjg86BaeBeCz8ZwKZ3xNatZBdu%2fehdI%3d&risl=&pid=ImgRaw&r=0');
+				               background-size: contain;
+				               background-position: center;
+				               background-repeat: repeat;
+				               color: #000;
+				           } */
+ /* body {
+               font-family: 'Arial', sans-serif;
+               line-height: 1.6;
+               margin: 0;
+               padding: 0;
+               background-color: #333;
+               color: #fff; 
+           } */
+           header {
+               background-color: rgba(76, 175, 80, 0.8);
+               text-align: center;
+               padding: 1em;
+               color: white;
+           }
+   
+           section {
+               max-width: 1000px;
+               margin: auto;
+               background-color: rgba(255, 255, 255, 0.9);
+               border-radius: 10px;
+               box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+               padding: 20px;
+               color: #000;
+               margin-bottom: 60px; /* Add bottom margin to avoid being covered by the footer */
+           }
+   
+           h2 {
+               color: #4CAF50;
+           }
+   
+           h3 {
+               color: #4CAF50;
+           }
+   
+           ul {
+               list-style-type: none;
+               padding: 0;
+           }
+   
+           li {
+               margin-bottom: 1em;
+           }
+   
+           table {
+               width: 100%;
+               border-collapse: collapse;
+               margin-top: 1em;
+           }
+   
+           th, td {
+               border: 1px solid #ddd;
+               padding: 8px;
+               text-align: left;
+           }
+   
+           th {
+               background-color: #4CAF50;
+               color: white;
+           }
+   
+           figure {
+               margin: 1em 0;
+               text-align: center;
+           }
+   
+           footer {
+               background-color: rgba(51, 51, 51, 0.8);
+               color: white;
+               text-align: center;
+               padding: 1em;
+               position: fixed;
+               bottom: 0;
+               width: 100%;
+               z-index: 1; /* Set a higher z-index to ensure the footer is behind the content */
+           }
+       </style>
 </head>
 
 <body>
